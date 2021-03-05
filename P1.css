@@ -1,0 +1,310 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Roboto' Arial, sans-serif;
+
+}
+
+.navbar{
+	width: 100%;
+	position: fixed;
+	background-color:maroon;
+	padding: 15px 0px;
+
+}
+.navbar .max-width{
+
+	width: 1300px;
+	display: flex;
+	justify-content: space-between;
+	margin: auto;
+	align-content: auto;
+}
+.logo a{
+	color: #fff;
+	font-size: 40px;
+	font-weight: 500;
+}
+.logo span{
+	color: #000;
+}
+.menu li{
+	display: inline-block;
+}
+.menu{
+	padding-top: 10px;
+}
+.menu .menu-1{
+  color: #000;
+}
+.menu li a{
+	color: white;
+	font-size: 20px;
+	font-weight: 200;
+	margin-left: 25px; 
+	transition: color 1s;
+}
+
+.menu li a:hover{
+	color: black;
+	}
+.home
+{
+    height: 800px;
+    background: url('home2.jpg');
+    display: flex;
+}
+.home .max-width
+{
+    color: white;
+    margin: auto 120px;
+}
+.home .home-content .text-1
+{
+font-size: 30px;
+font-weight: 200;
+}
+.home .home-content .text-2
+{
+font-size: 50px;
+font-weight: 200;
+color:maroon;
+}
+.home .home-content .text-3
+{
+font-size: 30px;
+font-weight: 200;
+}
+.home .home-content .text-3 span
+{
+font-size: 30px;
+font-weight: 200;
+color:maroon
+}
+.home .home-content .button-one
+{
+    display: inline-block;
+    background-color: maroon;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    border: 2px solid maroon;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.home .home-content .button-one:hover
+{
+
+    color: black;
+}
+.about
+{
+    padding: 50px 150px;
+}
+.about .title
+{
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    text-decoration: underline maroon;
+    padding-bottom: 80px;
+}
+.about .about-content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.about .div-leftdiv
+{
+    width: 45%;
+}
+.about .div-right
+{
+    width: 55%;
+}
+.about .div-left img
+{
+    height: 400px;
+    width: 400px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+.about .div-right .text
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px ;
+}
+.about .div-right .text span
+{
+   color: maroon;
+}
+.about .div-right .text p
+{
+   text-align: justify;
+   font-size: 20px;
+}
+.about .div-right .button-tow
+{
+    display: inline-block;
+    background-color: maroon;
+    font-size: 30px;
+    font-weight: 200;
+    color: white;
+    border: 2px solid maroon;
+    border-radius: 20px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.pr1
+{
+    padding: 100px 150px;
+}
+.pr1 .text-1
+{
+    font-size: 30px;
+    font-weight: 200;
+    text-align: center;
+    
+}
+.pr1 .text-2
+{
+    font-size: 16px;
+    font-weight: 50;
+    text-align: center;
+    padding: 0px;
+    color:maroon;
+
+}
+.pr1 .text-3
+{
+    margin-bottom: 10px;
+
+}
+.image
+{
+  height: 80px;
+  width: 85px;
+  border-radius: 50px;
+  border: solid maroon;
+  object-fit: cover;
+  margin:0px 55px 55px 55px;
+    
+}
+ .pre
+{
+    margin-bottom: 25px;
+    text-align: justify;
+    margin: auto;
+}
+table
+{
+    background-color:rgb(0, 0, 0);
+    color: white;
+    font-size: 16px;
+    height: 250px;
+    width: 800px;
+    border: 60px;
+    margin-top: 50px;
+
+    
+}
+.pr1 table
+{
+    margin-left: 20px;
+
+}
+.Get-content
+{
+    display: flex;
+}
+.Get .title
+{
+    font-family: cursive;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.Get .text-3
+{
+ margin-left: 50px;
+}
+.div-right .mesa
+{
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-left: 200px;
+    font-family: cursive;
+    font-size: 20px;
+
+
+}
+.div-right .mesa1
+{
+    margin-left: 50px;
+}
+.div-right .input-1
+{
+    margin-top: 5px;
+    
+}
+.div-right .button-one
+{
+    margin-left: 200px;
+    display: inline-block;
+    background-color:maroon;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    border: 2px solid maroon;
+    border-radius: 10px;
+    padding: 10px 40px;
+    margin-top: 20px;
+}
+.div-right.h3
+{
+    margin-bottom: 10px;
+}
+.div-left
+{
+ text-align: justify;
+ margin-right: 20px;
+}
+.Get .div-left
+{
+    width: 40%;
+}
+.feet
+{
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    font-weight: 200;
+    margin-top: 80px;
+    padding: 15px 0px;
+    text-decoration: none;
+    
+}
+.feet em
+{
+    color:maroon;
+}
+.div-1
+{
+    margin-left: 80px;
+    margin-top:  15px;
+}
+.div-2
+{
+    padding: 5px;
+    
+
+}
